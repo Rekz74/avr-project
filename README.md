@@ -209,7 +209,7 @@ AutoARIMA стала лучшей среди статистических мод
 
 1. загрузка исходного датасета;
 2. выбор целевой переменной `Consumption`;
-3. приведение данных к формату `unique\\\_id`, `ds`, `y`;
+3. приведение данных к формату `unique_id`, `ds`, `y`;
 4. обработка пропусков;
 5. EDA;
 6. разделение на train и test;
@@ -237,19 +237,19 @@ avr-project/
 
 ├── data/
 
-│   ├── ts\_prepared.csv
+     ├── ts\_prepared.csv
 
-│   ├── train\_sample.csv
+     ├── train\_sample.csv
 
-│   └── test\_sample.csv
+     └── test\_sample.csv
 
 └── results/
 
-&#x20;   ├── all\_model\_metrics.csv
+     ├── all\_model\_metrics.csv
 
-&#x20;   ├── backtesting\_metrics.csv
+     ├── backtesting\_metrics.csv
 
-&#x20;   └── probabilistic\_forecast.csv
+     └── probabilistic\_forecast.csv
 
 #### Общий вывод
 
